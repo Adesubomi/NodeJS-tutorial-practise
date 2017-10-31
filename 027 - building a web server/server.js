@@ -7,16 +7,16 @@ var server = http.createServer(function(req, res) {
 	});
 
 	res.end(`
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Some HTML Content!</title>
-</head>
-<body>
-	<h2>Header!</h2>
-	<p>Some body of the content</p>
-</body>
-</html>
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title>Some HTML Content!</title>
+		</head>
+		<body>
+			<h2>Header!</h2>
+			<p>Some body of the content</p>
+		</body>
+		</html>
 	`);
 	
 }).listen(3000);
